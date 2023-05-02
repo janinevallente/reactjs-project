@@ -28,9 +28,12 @@ function Login() {
                 Submit
               </button>
             </div>
+            <center>
             <p className="forgot-password text-right mt-2">
               Forgot <a href="#">password?</a>
             </p>
+            </center>
+            
           </div>
         </form>
       </div>

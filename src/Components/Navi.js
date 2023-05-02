@@ -14,7 +14,7 @@ function Navi() {
             <Nav className="me-auto">
                 <NavLink className = 'link ' to ="/">Home</NavLink>
                 <NavLink className = 'link ' to ="/login">Login</NavLink>
-                <NavLink className = 'link ' to ="/registration">Registration</NavLink>
+                <NavLink className = 'link ' to ="/registration">Register</NavLink>
             </Nav>
             </Container>
         </Navbar>

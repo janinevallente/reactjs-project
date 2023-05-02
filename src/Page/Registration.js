@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 function Registration() {
   return (
     <div>
-        <center><h1>Registration</h1></center>
+        <center><h1>Registration Form</h1></center>
         
         <Form>
             <Row className="mb-3">
