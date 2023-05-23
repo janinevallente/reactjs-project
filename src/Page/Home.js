@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
 
 function Home() {
+
+  const [entry, setEntry] = useState([]);
+  useEffect(()=>{
+    axios.get('https://api.publicapis.org/entries')
+    .then(response=>{
+      console.log(response.data.entries);
+      setEntry(response.data.entries);
+    })
+  },[]);
+
   return (         
     <div className="content">
       <center>
